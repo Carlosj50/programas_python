@@ -1,5 +1,3 @@
-#crear un acceso con usuario y contraseña
-
 user = "carlos"
 password = "123"
 

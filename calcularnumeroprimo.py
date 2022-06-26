@@ -1,5 +1,3 @@
-#calcular el numero primo
-
 def run():
     numero = int(input("Ingrese un numero: "))
     contador = 0
