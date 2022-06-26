@@ -1,19 +1,19 @@
 import turtle
 
-window1 = turtle.Screen()
+def main():
+    window = turtle.Screen()
+    window.bgcolor("red")
 
+    brad = turtle.Turtle()
+    brad.shape("turtle")
+    brad.color("yellow")
+    brad.speed(2)
 
-cuadrado = turtle.Turtle()
-for i in range(4):
-    cuadrado.forward(100)
-    cuadrado.left(90)
-for i in range(4):
-    cuadrado.forward(90)
-    cuadrado.left(90)
-for i in range(4):
-    cuadrado.forward(80)
-    cuadrado.left(90)
-for i in range(4):
-    cuadrado.forward(70)
-    cuadrado.left(90)
-turtle.mainloop()
+    for i in range(4):
+        brad.forward(100)
+        brad.right(90)
+
+    window.exitonclick()
+    
+if __name__ == "__main__":
+    main()
